@@ -1,0 +1,12 @@
+<h1>Froms</h1>
+
+<button>
+    <a href="{% url 'about' %}">About</a>
+</button>
+
+<form action="{% url 'count' %}">
+    <textarea name="fulltext" id="" cols="30" rows="10"></textarea>
+    <br>
+    <input type="submit" value="count!" />
+
+</form>
